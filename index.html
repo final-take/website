@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
   <body> 
-    <section class="container">
+    <section class="container" id="header-intro">
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -24,9 +24,10 @@
         </label>
         <ul>
             <li><a class="active navlinks " href="index.html">Home</a></li>
-            <li><a class="navlinks" href="announcement.html">Projects</a></li>
-            <li><a class="navlinks" href="announcement.html">Who we are</a></li>
-            <li><a class="navlinks" href="announcement.html">Connect</a></li>
+            <li><a class="navlinks" href="projects.html">Projects</a></li>
+            <li><a class="navlinks" href="services.html">Services</a></li>
+            <li><a class="navlinks" href="team.html">Who we are</a></li>
+            <li><a class="navlinks connect" href="connect.html">Hire Us</a></li>
         </ul>
       </nav>
     </section>
@@ -38,27 +39,31 @@
         </div>
         <div class="work flex">
           <div class="box1 box">
-            <img src="asset 12.svg" alt="" width="45px">
+            <div class="work-num">01</div>
             <div class="content">
-                <p>Click on Register button and Fill the form, Be crazy</p>
+              <h2>Video Editing</h2>
+                <!-- <p>Click on Register button and Fill the form, Be crazy</p> -->
             </div>
           </div>
           <div class="box2 box">
-            <img src="asset 13.svg" alt="" width="45px">
+            <div class="work-num">02</div>
             <div class="content">
-                <p>Participate in Tournaments, Win Rewards</p>
+              <h2>Short Film Production</h2>
+                <!-- <p>Participate in Tournaments, Win Rewards</p> -->
             </div>
           </div>
           <div class="box3 box">
-            <img src="asset 14.svg" alt="" width="45px">
+            <div class="work-num">03</div>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                <h2>Ad Video</h2>
             </div>
           </div>
           <div class="box4 box">
-            <img src="asset 15.svg" alt="" width="45px">
+            <div class="work-num">04</div>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <h2>Promotional Reels</h2>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
             </div>
           </div>
         </div>
@@ -70,15 +75,15 @@
           <div class="section-header">
             <h2>Who <span style="color: rgb(255,0,0);">we are</span></h2>
           </div>
-            <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, dolores. 
-              Illum nemo, minima sit soluta nesciunt libero aliquam sunt velit. Nobis aperiam totam, 
-              placeat recusandae illum possimus accusamus animi fuga. Lorem ipsum dolor, sit amet consectetur 
-              adipisicing elit. </p>
+            <div><p>We are a group of visual storytellers who came together with with one goal 
+                    in mind - solve problems of our clients using the best videos the Internet has ever seen.
+                  </p>
+                  <a href="https://bit.ly/join-finaltake" target="_blank"><button class="join">Join Us <i class="fa-sharp fa-solid fa-arrow-right"></i></button></a>
             </div>
             
         </div>
         <div class="about-img">
-          <img src="pexels-leonardo-luz-14493709.jpg" alt="">
+          <img src="pexels-harsh-kushwaha-1689731.jpg" alt="">
         </div>
       </div>
     </section>
@@ -91,7 +96,7 @@
         <h2>Our <span style="color: rgb(255,0,0);">Projects</span></h2>
       </div>
       <div class="projects flex">
-        <iframe width="500" height="380" src="https://www.youtube.com/embed/6ypkwDe7DFw" title="Collapse Revision1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="500" height="390" src="https://www.youtube.com/embed/6ypkwDe7DFw"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -101,15 +106,50 @@
   <section class="client-section">
     <div class="clients">
       <div class="section-header">
-        <h2>We have worked with</h2>
+        <h2>TRUSTED <span style="color: red;">BY</span></h2>
       </div>
-      <div class="client-company-logo" flex>
-        <img src="" alt="">
-        <img src="" alt="">
+      <div class="client-companies flex" flex>
+        <img class="logo" src="logo.png" alt="shelfmarch">
+        <img class="logo" src="Untitled (3).png" alt="wissen" >
+        <img class="logo" src="teesgraphy-logo-16737287341.jpg" alt="teesgraphy">
+        <img class="logo" src="printwerse_png.png" alt="printwerse">
+        <img class="logo bluxcart" src="bluxcart.png" alt="bluxcart">
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
+  <section class="contact-section">
+    <div class="contact-container flex">
+      <div class="contact1 flex">
+        <h2>We're here</h2>
+        <p>Our door is always open for a good cup of coffee.</p>
+      </div>
+      <div class="contact2">
+        <h2>Let's <span style="color: #de0000;">talk</span></h2>
+        <div class="talk-box">
+          <span style="display: block;">
+            <h4>Phone</h4>
+            <p>+91 000XX XX000</p>
+          </span>
+          <span>
+            <h4>Email</h4>
+            <p>work.final.take@gmail.com</p>
+          </span>
+          <div class="social flex">
+            <a href="https://www.linkedin.com/company/final-take/"><i class="fa-brands fa-linkedin" ></i></a>
+            <a href="https://www.instagram.com/final.take._/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/people/Final-Take/100089823438344/"><i class="fa-brands fa-square-facebook" ></i></a>
+            <a href="https://www.youtube.com/@finaltake1009/featured"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <section style="height: 100px;"></section>
+  <!-------------------------=================== Footer=======================-------------------------------- -->
   <footer>
     <div class="footer-container">
         <div class="footer-entity">
@@ -120,18 +160,24 @@
             
         </div>
         
-        <div class="footer-entity">
+        <div class="footer-entity links">
             <h3>Links</h3>
             <ul>
-                <li><a href="announcement.html">Home</a></li>
-                <li><a href="announcement.html">Announcement</a></li>
-                <li><a href="announcement.html">About Us</a></li>
-                <li><a href="announcement.html">Connect</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">About Us</a></li>
+                <li><a href="connect.html">Connect</a></li>
             </ul>
         </div>
         <div class="footer-entity">
-            <h3 class="contact-form">Contact Us <i class="fa-solid fa-message-code"></i></h3>
-            <p class="email-id"><i class="fa-solid fa-envelope"></i> finaltakeproduction@gmail.com</p>
+            <h3 class="contact-form">Connect with Us <i class="fa-solid fa-message-code"></i></h3>
+            <p class="email-id"><i class="fa-solid fa-envelope"></i> work.final.take@gmail.com</p>
+            <div class="social flex">
+              <a href="https://www.linkedin.com/company/final-take/"><i class="fa-brands fa-linkedin" ></i></a>
+              <a href="https://www.instagram.com/final.take._/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/people/Final-Take/100089823438344/"><i class="fa-brands fa-square-facebook" ></i></a>
+              <a href="https://www.youtube.com/@finaltake1009/featured"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
     </div>
     <p class="copy-right">FINAL TAKE &copy; 2023 - All Rights Reserved</p>
